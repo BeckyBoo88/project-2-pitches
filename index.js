@@ -6,7 +6,7 @@ const db = 'find_your_park'
 const methodOverride = require('method-override')
 
 const app = express()
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 3000
 const park = process.env.PARK
 
 app.set('view engine', 'ejs')
